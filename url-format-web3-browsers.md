@@ -42,7 +42,6 @@ Web3 browser URLs contain "ethereum" in their schema (protocol) part and are con
     chain_id_parameter      = chain_id "=" chain_id_value
     chain_id_value          = 1*DIGIT
     key                     = STRING
-    number                  = [ "-" / "+" ] *DIGIT [ "." 1*DIGIT ] [ ( "e" / "E" ) [ 1*DIGIT ] [ "+" UNIT ]
  
  ### Semantics
 
